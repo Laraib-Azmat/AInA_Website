@@ -1,0 +1,27 @@
+.emotion {
+  width: 80%;
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(250, 215, 196);
+  margin: 12rem auto 5rem auto;
+  border-radius: 5rem;
+  box-shadow: rgb(224, 135, 108) 0px 30px 60px -12px inset,
+    rgba(242, 124, 88) 0px 18px 36px -18px inset;
+  line-height: 4rem;
+}
+
+.emotion span {
+  color: rgb(55, 133, 187);
+}
+.emotion p {
+  font-size: var(--text);
+  font-family: "Ruhl medium";
+}
+
+@media screen and (width < 850px) {
+  .emotion {
+    width: 100%;
+  }
+}

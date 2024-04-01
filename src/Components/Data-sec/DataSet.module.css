@@ -1,0 +1,11 @@
+.Data_Set_Header {
+  text-align: center;
+  color: rgb(226, 113, 78);
+  text-decoration: underline;
+  font-size: var(--header1);
+  text-underline-offset: 1rem;
+  text-underline-position: bottom right;
+  padding: 2rem;
+  margin-top: 3rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

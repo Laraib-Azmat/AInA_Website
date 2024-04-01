@@ -1,0 +1,40 @@
+.contact-sec {
+  height: 100vh;
+  position: relative;
+  background-color: rgb(236, 207, 190);
+  color: #4e5e72;
+  text-align: center;
+  font-family: monospace;
+  overflow: hidden;
+  z-index: 2;
+}
+.circle {
+  width: 50%;
+  height: 60%;
+  border-radius: 0px 60px 60px 0px;
+  background: linear-gradient(90deg, rgb(227, 173, 98), rgb(181, 115, 95));
+  position: absolute;
+  top: 15%;
+  right: 16%;
+  box-shadow: -5px 5px 30px rgb(159, 87, 64);
+  z-index: -1;
+}
+
+@media screen and (width <= 830px) {
+  .circle {
+height: 50%;
+top: 25%;
+  }
+}
+
+@media screen and (width < 650px) {
+  .circle {
+    width: 90%;
+    height: 70%;
+  }
+}
+@media screen and (width < 415px) {
+  .circle {
+    display: none;
+  }
+}

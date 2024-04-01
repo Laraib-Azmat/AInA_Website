@@ -1,0 +1,46 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0rem 1rem;
+  width: 30%;
+  height: 80%;
+}
+
+.centre-image {
+  height: 25%;
+  width: 25%;
+}
+
+@media screen and (width < 800px) {
+  .cards {
+    flex-wrap: wrap;
+  }
+  .cards img {
+    width: 50%;
+    height: 50%;
+  }
+  .cards :nth-child(3) {
+    flex-direction: row;
+    width: 100%;
+  }
+}
+
+@media screen and (width < 600px) {
+  .content {
+    width: 100%;
+  }
+  .cards :nth-child(3) {
+    flex-direction: column;
+  }
+  .cards img {
+    margin: auto;
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "testimonial": [
+        {
+            "name": "Atiqa Qayyum",
+            "text": "Versatile team member with expertise in Web Development, Deep Learning, and Cloud Computing. Technical skills have been instrumental in bringing our projects to life. Approaches challenges with creativity and dedication",
+            "contact": "Contact Atiqa",
+            "email": "atiqaqayyum786@gmail.com"
+          },
+          {
+            "name": "Aqsa Sher",
+            "text": " Talented contributor, specializing in Machine Learning, Deep Learning, and UI/UX design. Keen eye for detail and innovative design sensibilities have elevated the user experience of our projects.  A true asset of team",
+            "contact": "Contact Aqsa",
+            "email":"aqsasher41@gmail.com"
+          },
+          {
+            "name": "Muhammad Jabir Ali",
+            "text": " Technical powerhouse, excelling in Computer Vision, Machine Learning, and Image Processing. Expertise has  enhanced the functionality  of this project. Crafting  Business Plans has been invaluable to this team's success.",
+            "contact": "Contact Jabir",
+            "email":"alijabir1508@gmail.com"
+          }
+    ]
+}

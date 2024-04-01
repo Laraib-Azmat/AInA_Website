@@ -1,0 +1,35 @@
+{
+    "content1": [
+        {
+            "id": "c1",
+            "heading": "Capture Emotions",
+            "desc": "Record facial expressions and gestures with a simple click."
+        },
+    
+        
+          {
+            "id": "c2",
+            "heading": "Interactive Mirror",
+            "desc": "See your emotions visually represented on the mirror's surface"
+        }
+    ],
+
+    
+    "content2": [
+        {
+            "id": "c11",
+            "heading": "Personalized Content",
+            "desc": "Receive tailored news updates and songs  matching your mood."
+        },
+    
+        
+          {
+            "id": "c22",
+            "heading": "Privacy Assured",
+            "desc": "Your data remains confidential and secure."
+        }
+    ]
+
+
+  }
+  

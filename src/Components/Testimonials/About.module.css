@@ -1,0 +1,63 @@
+/* TestimonialsComponent.css */
+
+.testimonials-container {
+  text-align: center;
+  padding: 30px 50px;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.testimonial {
+  width: 30%;
+  margin: 10px;
+  padding: 40px 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: rgba(245, 201, 176, 0.943);
+  color: rgb(0, 0, 0);
+  box-shadow: rgb(185, 117, 96) 0px 4px 12px;
+  position: relative; /* Added for animations */
+}
+
+.name {
+  font-weight: bold;
+  font-size: var(--header3);
+  margin: 10px 0px;
+  color: rgb(210, 65, 21);
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.testimonial {
+  animation: fadeIn 0.5s ease-in-out; /* Apply animation */
+}
+
+.test-header {
+  color: rgb(225, 97, 58);
+  font-weight: bold;
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 768px) {
+  .testimonial {
+    width: 70%; /* Adjust width for smaller screens */
+  }
+}
+@media (max-width: 450px) {
+  .testimonial {
+    width: 100%; /* Adjust width for smaller screens */
+  }
+}

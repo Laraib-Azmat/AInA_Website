@@ -1,0 +1,74 @@
+.Data_Set_Div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2rem;
+
+}
+.Data_Set_Text {
+  margin: 2rem 2rem;
+  width: 50%;
+  margin: auto;
+  line-height: 4rem;
+}
+.Data_Set_Text h2 {
+  color: rgb(55, 133, 187);
+  font-family: "Ruhl bold";
+}
+
+.Data_Set_Span {
+  color: #000000;
+  line-height: 3rem;
+  font-size: 1.6rem;
+  font-family: "Ruhl regular", "Times New Roman", Times, serif;
+}
+
+.Data_Set_List {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(193, 108, 82);
+  font-family: "Ruhl Bold";
+}
+.Data_Set_List li {
+  list-style: circle;
+  margin: 1rem 0rem;
+  line-height: 1.8rem;
+  font-size: 2.3rem;
+}
+
+.Data_Set_Button_Div {
+  width: 25%;
+  margin: auto;
+  margin-top: 0;
+}
+
+.Data_Set_Image img {
+  background-size: cover;
+  width: 90%;
+  height: 90%;
+}
+
+@media screen and (width < 900px) {
+  .Data_Set_Div{
+    flex-wrap: wrap;
+  }
+  .Data_Set_Text{
+    width: 90%;
+  }
+  .Data_Set_Image {
+    width: 100%;
+    height: 50%;
+  }
+}
+
+@media screen and (width < 650px) {
+  .Data_Set_Div {
+    flex-direction: column;
+  }
+
+  .Data_Set_Text {
+    width: 100%;
+    padding: 3rem;
+  }
+}

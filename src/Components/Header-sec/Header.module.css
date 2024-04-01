@@ -1,0 +1,12 @@
+.main-head {
+  width: 100%;
+  background-color: rgb(245, 201, 176);
+  border-bottom-right-radius: 30rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgb(179, 126, 95) 0px 10px 10px;
+}
+
+@media screen and (width < 750px) {
+  .main-head {
+    border-bottom-right-radius: 20rem;
+  }
+}
